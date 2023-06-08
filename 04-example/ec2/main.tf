@@ -21,6 +21,7 @@ resource "aws_instance" "web" {
     inline = [
         "ansible-pull -U https://github.com/sharanyachandu/ansible-file.git robot-pull.yml -e ENV=dev -e COMPONENT=mongodb"
     ]
+  }
 }
 
 variable "sg" {}
