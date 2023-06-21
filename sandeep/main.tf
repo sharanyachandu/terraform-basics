@@ -4,7 +4,7 @@ resource "aws_instance" "trial" {
   instance_type             = "t3.nano"
 
   tags = {
-    Name        = "Terraform-trial"
+    Name        = "sandeep"
   }
 
 
